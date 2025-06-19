@@ -1,8 +1,13 @@
 #include <iostream>
 #include <string>
+#include "header/AStar.hpp"
 
 int main()
 {
-    std::cout << "bra\n";
-    return 0;
+  AStar alg{};
+
+  alg.nextStep();
+  alg.nextStep();
+
+  return 0;
 }

@@ -5,13 +5,14 @@
 
 class PathFinder
 {
-private:
-  // Probably won't need anything here!
+protected:
+  Map m_map{};
 public:
   // --- Public member functions ---
   virtual ~PathFinder() = default;
   virtual void nextStep() = 0;
-  virtual const Map& get() const = 0;
+  virtual const Map& get() const;
+  virtual void setMap(const Map& map);
 };
 
 
