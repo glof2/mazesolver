@@ -9,8 +9,13 @@ list(APPEND SOURCES "main.cpp")
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX-STANDARD_REQUIRED True)
 
+# Export compile commands
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Executable
 add_executable(mazesolver ${SOURCES})
 
 # Includes
 target_include_directories(mazesolver PRIVATE header)
+
+

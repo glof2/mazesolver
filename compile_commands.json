@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/karol/Documents/Projects/mazesolver/build",
+  "command": "/usr/bin/c++  -I/home/karol/Documents/Projects/mazesolver/header -std=gnu++20 -o CMakeFiles/mazesolver.dir/source/AStar.cpp.o -c /home/karol/Documents/Projects/mazesolver/source/AStar.cpp",
+  "file": "/home/karol/Documents/Projects/mazesolver/source/AStar.cpp",
+  "output": "CMakeFiles/mazesolver.dir/source/AStar.cpp.o"
+},
+{
+  "directory": "/home/karol/Documents/Projects/mazesolver/build",
+  "command": "/usr/bin/c++  -I/home/karol/Documents/Projects/mazesolver/header -std=gnu++20 -o CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o -c /home/karol/Documents/Projects/mazesolver/source/PathFinder.cpp",
+  "file": "/home/karol/Documents/Projects/mazesolver/source/PathFinder.cpp",
+  "output": "CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o"
+},
+{
+  "directory": "/home/karol/Documents/Projects/mazesolver/build",
+  "command": "/usr/bin/c++  -I/home/karol/Documents/Projects/mazesolver/header -std=gnu++20 -o CMakeFiles/mazesolver.dir/main.cpp.o -c /home/karol/Documents/Projects/mazesolver/main.cpp",
+  "file": "/home/karol/Documents/Projects/mazesolver/main.cpp",
+  "output": "CMakeFiles/mazesolver.dir/main.cpp.o"
+}
+]

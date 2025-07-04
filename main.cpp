@@ -1,11 +1,9 @@
+#include "header/AStar.hpp"
 #include <iostream>
 #include <string>
-#include "header/AStar.hpp"
 
-int main()
-{
+int main() {
   AStar alg{};
-
   alg.nextStep();
   alg.nextStep();
 
