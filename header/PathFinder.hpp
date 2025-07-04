@@ -6,10 +6,11 @@
 class PathFinder
 {
 protected:
-  Map m_map{};
+  Map m_map{{}};
 
 public:
   // --- Public member functions ---
+  PathFinder(const Map& map);
   virtual ~PathFinder() = default;
   virtual void init() = 0;
   virtual void nextStep() = 0;

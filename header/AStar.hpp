@@ -9,7 +9,7 @@ class AStar : public PathFinder
 private:
   struct Node
   {
-    Position postion;
+    Position position;
     float g;
     float h;
     float f;
@@ -19,6 +19,9 @@ private:
   std::vector<Node> m_closed{};
 
 public:
+  AStar(const Map& map);
+  virtual ~AStar() = default;
+
   virtual void init() override;
   virtual void nextStep() override;
 };

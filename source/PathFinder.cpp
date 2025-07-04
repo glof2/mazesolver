@@ -1,5 +1,7 @@
 #include "./../header/PathFinder.hpp"
 
+PathFinder::PathFinder(const Map& map) : m_map{map} {}
+
 const Map& PathFinder::get() const
 
 {
