@@ -3,6 +3,7 @@ mazesolver: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/mazesolver.dir/source/AStar.cpp.o \
+  CMakeFiles/mazesolver.dir/source/Map.cpp.o \
   CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o \
   CMakeFiles/mazesolver.dir/main.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so \
@@ -40,6 +41,8 @@ mazesolver: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o:
 
 CMakeFiles/mazesolver.dir/source/AStar.cpp.o:
+
+CMakeFiles/mazesolver.dir/source/Map.cpp.o:
 
 CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o:
 

@@ -85,12 +85,12 @@ clean: CMakeFiles/mazesolver.dir/clean
 CMakeFiles/mazesolver.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mazesolver.dir/build.make CMakeFiles/mazesolver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mazesolver.dir/build.make CMakeFiles/mazesolver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=1,2,3,4 "Built target mazesolver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target mazesolver"
 .PHONY : CMakeFiles/mazesolver.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mazesolver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/Projects/mazesolver/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/Projects/mazesolver/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mazesolver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/Projects/mazesolver/build/CMakeFiles 0
 .PHONY : CMakeFiles/mazesolver.dir/rule
@@ -102,7 +102,7 @@ mazesolver: CMakeFiles/mazesolver.dir/rule
 # codegen rule for target.
 CMakeFiles/mazesolver.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mazesolver.dir/build.make CMakeFiles/mazesolver.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target mazesolver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target mazesolver"
 .PHONY : CMakeFiles/mazesolver.dir/codegen
 
 # clean rule for target.

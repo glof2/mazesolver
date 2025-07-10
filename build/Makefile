@@ -184,6 +184,30 @@ source/AStar.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mazesolver.dir/build.make CMakeFiles/mazesolver.dir/source/AStar.cpp.s
 .PHONY : source/AStar.cpp.s
 
+source/Map.o: source/Map.cpp.o
+.PHONY : source/Map.o
+
+# target to build an object file
+source/Map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mazesolver.dir/build.make CMakeFiles/mazesolver.dir/source/Map.cpp.o
+.PHONY : source/Map.cpp.o
+
+source/Map.i: source/Map.cpp.i
+.PHONY : source/Map.i
+
+# target to preprocess a source file
+source/Map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mazesolver.dir/build.make CMakeFiles/mazesolver.dir/source/Map.cpp.i
+.PHONY : source/Map.cpp.i
+
+source/Map.s: source/Map.cpp.s
+.PHONY : source/Map.s
+
+# target to generate assembly for a file
+source/Map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mazesolver.dir/build.make CMakeFiles/mazesolver.dir/source/Map.cpp.s
+.PHONY : source/Map.cpp.s
+
 source/PathFinder.o: source/PathFinder.cpp.o
 .PHONY : source/PathFinder.o
 
@@ -224,6 +248,9 @@ help:
 	@echo "... source/AStar.o"
 	@echo "... source/AStar.i"
 	@echo "... source/AStar.s"
+	@echo "... source/Map.o"
+	@echo "... source/Map.i"
+	@echo "... source/Map.s"
 	@echo "... source/PathFinder.o"
 	@echo "... source/PathFinder.i"
 	@echo "... source/PathFinder.s"

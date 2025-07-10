@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/mazesolver.dir/link.d CMakeFiles/mazesolver.dir/source/AStar.cpp.o CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o CMakeFiles/mazesolver.dir/main.cpp.o -o mazesolver
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/mazesolver.dir/link.d CMakeFiles/mazesolver.dir/source/AStar.cpp.o CMakeFiles/mazesolver.dir/source/Map.cpp.o CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o CMakeFiles/mazesolver.dir/main.cpp.o -o mazesolver

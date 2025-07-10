@@ -86,10 +86,24 @@ CMakeFiles/mazesolver.dir/source/AStar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mazesolver.dir/source/AStar.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/Documents/Projects/mazesolver/source/AStar.cpp -o CMakeFiles/mazesolver.dir/source/AStar.cpp.s
 
+CMakeFiles/mazesolver.dir/source/Map.cpp.o: CMakeFiles/mazesolver.dir/flags.make
+CMakeFiles/mazesolver.dir/source/Map.cpp.o: /home/karol/Documents/Projects/mazesolver/source/Map.cpp
+CMakeFiles/mazesolver.dir/source/Map.cpp.o: CMakeFiles/mazesolver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mazesolver.dir/source/Map.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazesolver.dir/source/Map.cpp.o -MF CMakeFiles/mazesolver.dir/source/Map.cpp.o.d -o CMakeFiles/mazesolver.dir/source/Map.cpp.o -c /home/karol/Documents/Projects/mazesolver/source/Map.cpp
+
+CMakeFiles/mazesolver.dir/source/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mazesolver.dir/source/Map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/Documents/Projects/mazesolver/source/Map.cpp > CMakeFiles/mazesolver.dir/source/Map.cpp.i
+
+CMakeFiles/mazesolver.dir/source/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mazesolver.dir/source/Map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/Documents/Projects/mazesolver/source/Map.cpp -o CMakeFiles/mazesolver.dir/source/Map.cpp.s
+
 CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o: CMakeFiles/mazesolver.dir/flags.make
 CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o: /home/karol/Documents/Projects/mazesolver/source/PathFinder.cpp
 CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o: CMakeFiles/mazesolver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o -MF CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o.d -o CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o -c /home/karol/Documents/Projects/mazesolver/source/PathFinder.cpp
 
 CMakeFiles/mazesolver.dir/source/PathFinder.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/mazesolver.dir/source/PathFinder.cpp.s: cmake_force
 CMakeFiles/mazesolver.dir/main.cpp.o: CMakeFiles/mazesolver.dir/flags.make
 CMakeFiles/mazesolver.dir/main.cpp.o: /home/karol/Documents/Projects/mazesolver/main.cpp
 CMakeFiles/mazesolver.dir/main.cpp.o: CMakeFiles/mazesolver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mazesolver.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mazesolver.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mazesolver.dir/main.cpp.o -MF CMakeFiles/mazesolver.dir/main.cpp.o.d -o CMakeFiles/mazesolver.dir/main.cpp.o -c /home/karol/Documents/Projects/mazesolver/main.cpp
 
 CMakeFiles/mazesolver.dir/main.cpp.i: cmake_force
@@ -117,6 +131,7 @@ CMakeFiles/mazesolver.dir/main.cpp.s: cmake_force
 # Object files for target mazesolver
 mazesolver_OBJECTS = \
 "CMakeFiles/mazesolver.dir/source/AStar.cpp.o" \
+"CMakeFiles/mazesolver.dir/source/Map.cpp.o" \
 "CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o" \
 "CMakeFiles/mazesolver.dir/main.cpp.o"
 
@@ -124,12 +139,13 @@ mazesolver_OBJECTS = \
 mazesolver_EXTERNAL_OBJECTS =
 
 mazesolver: CMakeFiles/mazesolver.dir/source/AStar.cpp.o
+mazesolver: CMakeFiles/mazesolver.dir/source/Map.cpp.o
 mazesolver: CMakeFiles/mazesolver.dir/source/PathFinder.cpp.o
 mazesolver: CMakeFiles/mazesolver.dir/main.cpp.o
 mazesolver: CMakeFiles/mazesolver.dir/build.make
 mazesolver: CMakeFiles/mazesolver.dir/compiler_depend.ts
 mazesolver: CMakeFiles/mazesolver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable mazesolver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karol/Documents/Projects/mazesolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable mazesolver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mazesolver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
